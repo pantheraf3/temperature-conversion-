@@ -1,0 +1,65 @@
+.converter{
+    justify-content: center;
+    display: grid;
+    border: 1px solid #000;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(249, 255, 255, 0.966);
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    display: grid;
+    margin-top: 30px;
+}
+.temprature{
+    justify-content: center;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.celsius, 
+.kelvin,
+.fahrenheit{
+    border: 0px solid black;
+    margin: 10px;
+    height: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input{
+    width: 100px;
+    background: none;
+    border-style: none;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.celsius{
+    background-color: rgb(44, 44, 214);
+    color: white;
+    border-radius: 5px;
+}
+.kelvin{
+    background-color: rgb(48, 223, 48);
+    color: white;
+    border-radius: 5px;
+}
+.fahrenheit{
+    background-color: rgb(59, 59, 24);
+    color: white;
+    border-radius: 5px;
+}
+input:focus {
+    outline: none;
+}
